@@ -43,5 +43,5 @@ module.exports = {
       ]
     }
   },
-  plugins: [ '~plugins/elementui' ]
+  plugins: [ { src: '~plugins/elementui', ssr: false } ]
 }
