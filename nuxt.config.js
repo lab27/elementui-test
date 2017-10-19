@@ -37,8 +37,9 @@ module.exports = {
     babel: {
       plugins: [
         ['component', [{
-          'libraryName': 'element-ui',
-          'styleLibraryName': 'theme-default'
+          'libraryName': 'mint-ui',
+          'style': true
+          // 'styleLibraryName': 'theme-default'
         }]]
       ]
     }

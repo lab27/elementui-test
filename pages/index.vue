@@ -1,27 +1,57 @@
-<template>
-  <section class="container">
-    <el-date-picker
-      v-model="date"
-      type="date"
-      placeholder="Pick a day"
-      align="left"
-      ref="eldatepicker">
-    </el-date-picker>
-  </section>
+<template lang="pug">
+    div
+      mt-cell(
+        title="About"
+        to="/about"
+        is-link)
+      mt-cell-swipe(title="Message" :right="[{content:'doodle', style:{background: 'red', color: 'white'}},{content:'poodle', style:{background: 'dodgerblue', color:'white'}}]")
+
 </template>
 
 <script>
-import Logo from '~components/Logo.vue'
 
 export default {
-  components: {
-    Logo
-  },
 
   data () {
     return {
-      date: ''
+      // date: '',
+      // checked: true,
+      // value1: 0
     }
   }
 }
 </script>
+
+<style scoped>
+.el-col {
+  padding: 23px;
+}
+  .red {
+    background-color: red;
+  }
+
+.blue {
+  background: dodgerblue;
+}
+
+.yellow {
+  background: lemonchiffon;
+}
+
+.green {
+  background: lime;
+}
+
+.orange {
+  background:orange;
+}
+
+.gray {
+  background:#f9f9f9;
+}
+
+.mint-cell {
+  border-bottom: 1px solid #bbb;
+}
+
+</style>

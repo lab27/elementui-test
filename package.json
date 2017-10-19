@@ -5,7 +5,11 @@
   "author": "",
   "private": true,
   "dependencies": {
-    "nuxt": "latest"
+    "mint-ui": "^2.2.9",
+    "node-sass": "^4.5.3",
+    "nuxt": "latest",
+    "pug": "^2.0.0-rc.4",
+    "sass-loader": "^6.0.6"
   },
   "scripts": {
     "dev": "nuxt",
