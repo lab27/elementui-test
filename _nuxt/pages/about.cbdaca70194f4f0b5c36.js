@@ -1,0 +1,2 @@
+webpackJsonp([2],{e4xU:function(t,e,n){"use strict";e.a={}},hSk2:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var u=n("e4xU"),r=n("v3R1"),a=n("VU/8"),s=a(u.a,r.a,!1,null,null,null);e.default=s.exports},v3R1:function(t,e,n){"use strict";var u=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",[n("h1",[t._v("about me")]),n("nuxt-link",{attrs:{to:"/"}},[n("button",[t._v("back")])])],1)},r=[],a={render:u,staticRenderFns:r};e.a=a}});
+//# sourceMappingURL=about.cbdaca70194f4f0b5c36.js.map
